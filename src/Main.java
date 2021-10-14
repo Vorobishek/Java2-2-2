@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-    double height = 164;
-    double weight = 67;
 
     BmiService service = new BmiService();
-    double bmi = service.calculate ( height,weight);
+    double bmi = service.calculate ( 164,67);
     System.out.printf("BMI = "+"%.2f", bmi);
 
     }
